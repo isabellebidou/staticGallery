@@ -68,11 +68,11 @@ li.div {
   justify-content: center;
 }
 
- .tooltiptext {
+.tooltip .tooltiptext {
   visibility: hidden;
-  width: 40%;
-  height: 20%;
-  background-color: rgba(0, 0, 0, 0.2);
+  width: 60%;
+  /* height: 20%; */
+  background-color: rgba(0, 0, 0, 0.3);
   color: #fff;
   text-align: center;
   border-radius: 6px;
@@ -81,9 +81,10 @@ li.div {
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
-  top: 40%;
-  right: 40%;
+  top: 35%;
+  right: 20%;
 }
+
 .back {
   position: fixed;
   bottom: 20%;
@@ -178,6 +179,9 @@ h2 {
     rgba(243, 236, 236, 0.9),
     rgba(243, 236, 236, 0.6)
   );
+    -webkit-box-shadow: 1px 3px 5px 0px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.44);
+  box-shadow: 1px 3px 5px 0px rgba(0, 0, 0, 0.44);
 }
 .headertitle {
   color: rgba(25, 98, 194, 0.356);
@@ -208,6 +212,9 @@ font-size:xx-large;
     rgba(243, 236, 236, 0.9),
     rgba(243, 236, 236, 0.6)
   );
+  -webkit-box-shadow: 0px -5px 3px -2px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: 0px -5px 3px -2px rgba(0, 0, 0, 0.44);
+  box-shadow: 0px -5px 3px -2px rgba(0, 0, 0, 0.44);
 }
 
 
